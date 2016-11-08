@@ -5,6 +5,8 @@ class logman:
 	level = level.upper()
 	self.name = name
 	self.logger = logging.getLogger(name)
+	# Default level must be debug, otherwise lower level messages won't be
+	# passed to handlers
 	self.logger.setLevel(logging.DEBUG)
 	if logfile:
 	    handle = logging.FileHandler(logfile)
