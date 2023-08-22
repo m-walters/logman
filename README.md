@@ -1,4 +1,7 @@
 # logman
+
+**Note: This has not been maintained since 2016 (though I would guess it is still compatible with `logging` module).**
+
 Fancy python logging manager class.  
 Uses python [`logging`](https://docs.python.org/2/library/logging.html) module.
 With little hassle, this class provides a high degree of flexibility and control over:
